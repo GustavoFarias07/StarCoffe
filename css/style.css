@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --preto: rgb(63, 63, 63);
+    --branco: white;
+    --verde: aquamarine;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 4px var(--preto);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav>img {
+    width: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--preto);
+    padding: 5px;
+}
+
+.entrar {
+    border-radius: 10px;
+    border: 2px solid var(--preto);
+}
+
+.participe {
+    border-radius: 10px;
+    background-color: var(--preto);
+    color: white;
+}
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+main>img{
+    width: 100%;
+}
+div{
+    background-color: var(--verde);
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.botao01{
+    border: 2px solid var(--preto);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.quadrado01{
+   display: flex;
+   background-color: var(--verde);
+   font-size: 15px;
+   align-items: center;
+
+}
+.imagen-esquerda{
+    width: 50%;
+}
+.texto-01{
+    margin: 0 auto;
+    text-align: center ;
+    flex-direction: column;
+    display: flex;
+}
+.saiba{
+    border: 3px solid var(--preto);
+    border-radius: 10px;
+
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding: 10px 200px;
+}
